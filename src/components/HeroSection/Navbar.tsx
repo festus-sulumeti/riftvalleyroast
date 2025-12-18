@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
   return (
     <header className="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full py-7 bg-white dark:bg-neutral-900">
@@ -5,16 +7,16 @@ function Navbar() {
         
         {/* Logo / Brand */}
         <div className="lg:col-span-3 flex items-center">
-          <a href="#" className="text-2xl font-bold text-black dark:text-white">Rift Valley Roast</a>
+          <a to="#" className="text-2xl font-bold text-black dark:text-white">Rift Valley Roast</a>
         </div>
 
         {/* Navbar Links */}
         <div id="hs-pro-hcail" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block lg:w-auto lg:basis-auto lg:order-2 lg:col-span-6">
           <div className="flex flex-col gap-y-4 gap-x-0 mt-5 lg:flex-row lg:justify-center lg:items-center lg:gap-y-0 lg:gap-x-7 lg:mt-0">
-            <a className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400 font-medium transition" href="#">Home</a>
-            <a className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400 font-medium transition" href="#">Listings</a>
-            <a className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400 font-medium transition" href="#">Product</a>
-            <a className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400 font-medium transition" href="#">Checkout</a>
+            <Link className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400 font-medium transition" to="/">Home</Link>
+            <Link className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400 font-medium transition" to="/listings">Listings</Link>
+            <Link className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400 font-medium transition" to="/products">Product</Link>
+            <Link className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400 font-medium transition" to="/checkout">Checkout</Link>
           </div>
         </div>
 
@@ -35,8 +37,9 @@ function Navbar() {
               <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
             </svg>
           </button>
+          
           <button className="py-2 px-4 rounded-xl bg-yellow-400 text-black hover:bg-yellow-500 transition font-medium">
-            Sign in
+            <Link to="/signin">Sign in</Link>
           </button>
         </div>
       </nav>
