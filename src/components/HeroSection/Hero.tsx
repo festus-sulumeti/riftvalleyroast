@@ -86,7 +86,15 @@ function Hero() {
 
      </section> */}
 
+     <br />
+     <br />
+     <br />
+
+
      <section>
+        <h3 className="text-center font-bold text-2xl md:text-3xl text-black mb-8">
+          New This Season
+        </h3>
         <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 py-12 lg:py-24 mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
 
