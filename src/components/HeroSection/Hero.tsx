@@ -1,5 +1,5 @@
 import Navbar from "./Navbar"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 
 function Hero() {
