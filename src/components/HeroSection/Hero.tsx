@@ -24,7 +24,7 @@ function Hero() {
 
       </section>
 
-     <section>
+     {/* <section>
      
         <div className="py-12 grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12">
         
@@ -84,6 +84,149 @@ function Hero() {
         </Link> 
         </div>
 
+     </section> */}
+
+     <section>
+        <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 py-12 lg:py-24 mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+
+                {/* Card 1 */}
+                <div className="group flex flex-col">
+                <div className="relative">
+                    <div className="aspect-4/4 overflow-hidden rounded-2xl">
+                    <img
+                        className="size-full object-cover rounded-2xl"
+                        src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+                        alt="AA Nyeri Coffee"
+                    />
+                    </div>
+
+                    <div className="pt-4">
+                    <h3 className="font-medium md:text-lg text-black">
+                        AA Nyeri Reserve
+                    </h3>
+                    <p className="mt-2 font-semibold text-black">
+                        KES 1,200
+                    </p>
+                    </div>
+                </div>
+
+                <div className="mb-2 mt-4 text-sm text-black">
+                    <div className="flex flex-col">
+                    <div className="py-3 border-t border-gray-200">
+                        <div className="grid grid-cols-2 gap-2">
+                        <span className="font-medium">Tasting Notes:</span>
+                        <span className="text-end">Blackcurrant, Citrus, Honey</span>
+                        </div>
+                    </div>
+                    <div className="py-3 border-t border-gray-200">
+                        <div className="grid grid-cols-2 gap-2">
+                        <span className="font-medium">Region:</span>
+                        <span className="text-end">Nyeri</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="mt-auto">
+                    <button className="py-2 px-3 w-full rounded-xl bg-yellow-400 text-black font-medium hover:bg-yellow-500 transition">
+                    Buy now
+                    </button>
+                </div>
+                </div>
+
+                {/* Card 2 */}
+                <div className="group flex flex-col">
+                <div className="relative">
+                    <div className="aspect-4/4 overflow-hidden rounded-2xl">
+                    <img
+                        className="size-full object-cover rounded-2xl"
+                        src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+                        alt="Kirinyaga Coffee"
+                    />
+                    </div>
+
+                    <div className="pt-4">
+                    <h3 className="font-medium md:text-lg text-black">
+                        Kirinyaga Washed
+                    </h3>
+                    <p className="mt-2 font-semibold text-black">
+                        KES 1,050
+                    </p>
+                    </div>
+                </div>
+
+                <div className="mb-2 mt-4 text-sm text-black">
+                    <div className="flex flex-col">
+                    <div className="py-3 border-t border-gray-200">
+                        <div className="grid grid-cols-2 gap-2">
+                        <span className="font-medium">Tasting Notes:</span>
+                        <span className="text-end">Red Apple, Lime, Brown Sugar</span>
+                        </div>
+                    </div>
+                    <div className="py-3 border-t border-gray-200">
+                        <div className="grid grid-cols-2 gap-2">
+                        <span className="font-medium">Region:</span>
+                        <span className="text-end">Kirinyaga</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="mt-auto">
+                    <button className="py-2 px-3 w-full rounded-xl bg-yellow-400 text-black font-medium hover:bg-yellow-500 transition">
+                    Buy now
+                    </button>
+                </div>
+                </div>
+
+                {/* Card 3 */}
+                <div className="group flex flex-col">
+                <div className="relative">
+                    <div className="aspect-4/4 overflow-hidden rounded-2xl">
+                    <img
+                        className="size-full object-cover rounded-2xl"
+                        src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?auto=format&fit=crop&w=800&q=80"
+                        alt="Rift Valley Coffee"
+                    />
+                    </div>
+
+                    <div className="pt-4">
+                    <h3 className="font-medium md:text-lg text-black">
+                        Rift Valley Peaberry
+                    </h3>
+                    <p className="mt-2 font-semibold text-black">
+                        KES 1,350
+                    </p>
+                    </div>
+                </div>
+
+                <div className="mb-2 mt-4 text-sm text-black">
+                    <div className="flex flex-col">
+                    <div className="py-3 border-t border-gray-200">
+                        <div className="grid grid-cols-2 gap-2">
+                        <span className="font-medium">Tasting Notes:</span>
+                        <span className="text-end">Cranberry, Floral, Cocoa</span>
+                        </div>
+                    </div>
+                    <div className="py-3 border-t border-gray-200">
+                        <div className="grid grid-cols-2 gap-2">
+                        <span className="font-medium">Region:</span>
+                        <span className="text-end">Rift Valley</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="mt-auto">
+                    <button className="py-2 px-3 w-full rounded-xl bg-yellow-400 text-black font-medium hover:bg-yellow-500 transition">
+                    Buy now
+                    </button>
+                </div>
+                </div>
+
+            </div>
+        </div>
      </section>
     </>
   )
