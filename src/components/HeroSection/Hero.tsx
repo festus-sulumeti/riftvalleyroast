@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 // import { Link } from "react-router-dom"
 
 
@@ -426,6 +427,7 @@ function Hero() {
         {/* End Contact */}
      </section>
 
+    <Footer />
 
     </>
   )
