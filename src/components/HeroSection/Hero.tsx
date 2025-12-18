@@ -1,8 +1,13 @@
+import Navbar from "./Navbar"
 
 
 function Hero() {
   return (
-    <div>Hero</div>
+    <>
+      <Navbar />
+      
+     <div>Hero</div>
+    </>
   )
 }
 
