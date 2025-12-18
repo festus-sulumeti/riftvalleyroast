@@ -7,7 +7,7 @@ function Navbar() {
         
         {/* Logo / Brand */}
         <div className="lg:col-span-3 flex items-center">
-          <Link to="/" className="text-2xl font-bold text-black dark:text-white">Rift Valley Roast</Link>
+          <Link to="#" className="text-2xl font-bold text-black dark:text-white">Rift Valley Roast</Link>
         </div>
 
         {/* Navbar Links */}
