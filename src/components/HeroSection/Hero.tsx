@@ -236,6 +236,64 @@ function Hero() {
             </div>
         </div>
      </section>
+
+     <section>
+        <div className="py-10 md:py-16 lg:py-20 bg-orange-100">
+            <div className="px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:items-center">
+                
+                {/* Image */}
+                <div className="relative h-80 md:h-150 bg-gray-100 rounded-2xl dark:bg-neutral-800">
+                <img
+                    className="absolute inset-0 size-full object-cover rounded-2xl"
+                    src="https://images.unsplash.com/photo-1507914464562-6ff4ac29692f?q=80&w=768&auto=format&fit=crop"
+                    alt="Kenyan coffee highlands"
+                />
+                </div>
+
+                {/* Content */}
+                <div className="pt-10 md:p-10">
+                <blockquote className="max-w-4xl mx-auto">
+                    
+                    <p className="mb-6 md:text-lg text-black">
+                    Rooted in Kenya’s Coffee Highlands
+                    </p>
+
+                    <p className="text-xl sm:text-2xl lg:text-3xl lg:leading-normal text-black">
+                    From the fertile slopes of Nyeri, Kirinyaga, and the Rift Valley, Kenyan coffee is grown at high altitude and slow-ripened to produce bright acidity, deep sweetness, and complex, unforgettable flavors.
+                    </p>
+
+                    <footer className="mt-6 md:mt-10">
+                    <div className="border-neutral-700">
+                        <button
+                        type="button"
+                        className="group inline-flex items-center gap-x-3 text-black text-sm focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none"
+                        >
+                        <span className="size-8 md:size-10 flex flex-col justify-center items-center bg-black text-white rounded-full group-hover:scale-105 group-focus:scale-105 transition-transform duration-300 ease-in-out">
+                            <svg
+                            className="shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                            >
+                            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                        </span>
+                        Watch the Video
+                        </button>
+                    </div>
+                    </footer>
+
+                </blockquote>
+                </div>
+
+            </div>
+            </div>
+        </div>
+     </section>
+
     </>
   )
 }
