@@ -1,10 +1,14 @@
+import { Route, Routes } from "react-router-dom"
+import Hero from "./components/HeroSection/Hero"
 
 function App() {
   
 
   return (
   <>
-     Set up
+    <Routes>
+      <Route path="/" element={<Hero />} />
+    </Routes>
   </>
   )
 }
